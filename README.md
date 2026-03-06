@@ -4,8 +4,6 @@ Jarorun Transliterator is a tool that converts text from standard alphabets (Lat
 
 The project is designed to make it easy to write, experiment, and create content using runic writing systems inspired by Scandinavian and Slavic traditions.
 
----
-
 ## About Jarorun
 
 Jarorun is a custom runic alphabet and transliteration system designed for creative and fictional writing systems.
@@ -17,8 +15,6 @@ The transliteration system supports both **Latin and Cyrillic input**, convertin
 
 Jarorun is intended for creative use, including game development, worldbuilding, fictional languages, lore writing, and symbolic design.
 
----
-
 ## Features
 
 - Transliterate text into the Jarorun rune alphabet
@@ -26,8 +22,6 @@ Jarorun is intended for creative use, including game development, worldbuilding,
 - Designed for creative and worldbuilding use
 - Useful for games, lore creation, and fictional languages
 - Can be used in writing systems, symbols, and visual design
-
----
 
 ## Possible Use Cases
 
@@ -69,13 +63,10 @@ Jarorun Transliterator can be used for many creative and technical purposes:
 - studying phonetic alphabets
 - creating fictional languages
 
-
 ## License
 
 This project is licensed under the **NightLum Studio License (NSL)**.
 See the LICENSE file for details.
-
----
 
 ## Studio
 
