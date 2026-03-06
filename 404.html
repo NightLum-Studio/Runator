@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Runator</title>
+    <meta http-equiv="refresh" content="0; url=Web/index.html" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #18181b;
+        --panel: #1f1f23;
+        --border: #2b2b33;
+        --text: #ffffff;
+        --muted: #a1a1aa;
+        --accent: #6a7cff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Inter", system-ui, -apple-system, Segoe UI, sans-serif;
+      }
+
+      .card {
+        width: min(520px, 92vw);
+        padding: 24px;
+        border-radius: 12px;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        text-align: center;
+      }
+
+      .title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .desc {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 16px;
+      }
+
+      a {
+        display: inline-block;
+        padding: 10px 16px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        background: linear-gradient(135deg, var(--accent), #8b6bff);
+      }
+    </style>
+    <script>
+      window.location.replace("Web/index.html");
+    </script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="title">Page not found</div>
+      <div class="desc">Redirecting to Runator…</div>
+      <a href="Web/index.html">Open Runator</a>
+    </div>
+  </body>
+</html>
