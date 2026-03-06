@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Runator</title>
+    <meta name="theme-color" content="#18181b" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="title">Runator</div>
+        <div class="controls">
+          <div class="select-group">
+            <label for="sourceSelect">Source</label>
+            <select id="sourceSelect">
+              <option value="cyrillic">Cyrillic</option>
+              <option value="latin">Latin</option>
+              <option value="runes">Runes</option>
+            </select>
+          </div>
+          <button id="swapBtn" class="btn icon" type="button" aria-label="Swap source and target">
+            <img src="../Icons/Icon_autorenew.svg" alt="" />
+          </button>
+          <div class="select-group">
+            <label for="targetSelect">Target</label>
+            <select id="targetSelect">
+              <option value="runes">Runes</option>
+              <option value="cyrillic">Cyrillic</option>
+              <option value="latin">Latin</option>
+            </select>
+          </div>
+          <button id="translateBtn" class="btn primary">Translate</button>
+          <button id="copyBtn" class="btn ghost">Copy</button>
+        </div>
+      </header>
+
+      <section class="upload">
+        <label class="upload-card" for="fileInput">
+          <input id="fileInput" type="file" />
+          <div class="upload-text">
+            <span class="upload-title">Upload text file</span>
+            <span class="upload-subtitle">Any text format. Large files supported by browser memory.</span>
+          </div>
+          <button id="downloadBtn" class="btn ghost" type="button">Download translated</button>
+        </label>
+      </section>
+
+      <section class="panes">
+        <div class="pane">
+          <div class="pane-title">Input text</div>
+          <textarea id="inputText" placeholder="Type or paste text here..."></textarea>
+        </div>
+        <div class="pane">
+          <div class="pane-title">Output</div>
+          <textarea id="outputText" readonly></textarea>
+        </div>
+      </section>
+
+      <footer class="status">
+        <span id="statusText">Ready</span>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
