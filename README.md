@@ -6,7 +6,7 @@ The transliteration system uses the **Hinofiori Futhorc**, a modern runic alphab
 ## Live Demo
 
 You can try the transliterator here:  
-https://nightlum-studio.github.io/Runator/Web/index.html
+https://nightlum-studio.github.io/Runator
 
 
 ## About
